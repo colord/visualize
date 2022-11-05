@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Array Visualizer</title>
+  </head>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+  </style>
+
+  <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+
+  <body>
+    <div id="content">
+      <div id="grid">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div id="col-header">
+        </div>
+        <div id="iteration">▷</div>
+        <div id="row-header">
+        </div>
+        <div id="array"></div>
+      </div>
+      <div id="options">
+        <label for="set-rows">R</label>
+        <input id="set-rows" type="number" min="1"></input>
+        <label for="set-cols">C</label>
+        <input id="set-cols" type="number" min="2"></input>
+        <button id="clear-button">Clear</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
